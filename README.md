@@ -1,6 +1,6 @@
 # PythonFlaskJWTbyApplication
 
-<h1>Python Flask Server</h1>
+<h2>Python Flask Server</h2>
 <p>With JWT Authentication, User Signup, and Structured by App for scalability</p>
 
 <h1>Installation</h1>
