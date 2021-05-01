@@ -6,7 +6,7 @@
 
 ## Setup
 ```console_window
-To run from source, install Python 3.7+ 64 bit
+Developed using Windows 64bit and Python 3.7
 
 Install pre-requisites and start the interface
 $ pip install -r requirements.txt
