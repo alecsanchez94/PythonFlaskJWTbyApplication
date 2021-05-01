@@ -23,7 +23,7 @@ $ pip install -r requirements.txt
 
 ## Initialize Redis and Load the Celery
 ```console_window
-Completely optional with the current build, there are no tasks setup for the Celery (Coming soon!)
+Completely optional with the current build, there are no tasks setup for the Celery, but it wouldn't be too hard to do at this point. (Example tasks coming soon!)
 
 Initialize Redis
 $ cd redis && redis-server
