@@ -6,7 +6,7 @@
 
 ## Setup
 ```console_window
-Developed using Windows 64bit and Python 3.7
+Developed using Windows 10 64bit and Python 3.7
 
 Install pre-requisites and start the interface
 $ pip install -r requirements.txt
