@@ -15,7 +15,10 @@ $ pip install -r requirements.txt
 ## A few things before getting started
 ```console_window
 config.py
-<li>Testing</li>
+Setup database connection
+Change SECRET_KEY, JWT_SECRET_KEY, SECURITY_PASSWORD_SALT
+Setup Mail variables, recommend to use gmail, its free and easy
+Setup FRONTEND variables, currently setup for IP:PORT connection, can easily be changed to a single string variable for a domain. This is used to create URLs for the frontend.
 
 ```
 ## Initialize Redis and Load the Celery
