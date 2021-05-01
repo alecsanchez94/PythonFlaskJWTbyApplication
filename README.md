@@ -24,7 +24,8 @@ $ celery -A flask_server.celery worker -E -l info --pool=solo
 
 ## Initialize the flask server
 ```console_window
-
+Environment variables are located in .env and are loaded through python-dotenv, installed through requirements.txt
+See config.py for server settings
 $ flask run
 
 ```
