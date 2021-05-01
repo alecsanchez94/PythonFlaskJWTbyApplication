@@ -20,14 +20,15 @@ $ pip install -r requirements.txt
   <li>Change SECRET_KEY, JWT_SECRET_KEY, SECURITY_PASSWORD_SALT</li>
   <li>Setup Mail variables, recommend to use gmail, its free and easy</li>
   <li>Setup FRONTEND variables, currently setup for IP:PORT connection, can easily be changed to a single string variable for a domain. This is used to create URLs for the frontend.</li>
+  
+
+  
+## Update the database with defined models
  ```console_window
 
 $ python update_db.py
 
 ```
-  
-## Update the database with defined models
-
 
 ## Initialize Redis and Load the Celery
 ```console_window
