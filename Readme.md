@@ -25,7 +25,7 @@ $ pip install -r requirements.txt
   
 ## Update the database with defined models
  ```console_window
-
+At this point, its very important the database variables are setup and working, checkout the jupyter notebook to test your mysql connection
 $ python update_db.py
 
 ```
