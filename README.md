@@ -5,6 +5,7 @@
 
 <h3>Installation</h3>
 
+## Setup
 ```console_window
 To run from source, install Python 3.7+ 64 bit
 
