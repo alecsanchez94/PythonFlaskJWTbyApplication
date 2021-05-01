@@ -12,9 +12,12 @@ Install pre-requisites and start the interface
 $ pip install -r requirements.txt
 ```
 
-## A few things before you get started
-<li>Set Configuration</li>
+## A few things before getting started
+```console_window
+config.py
+<li>Testing</li>
 
+```
 ## Initialize Redis and Load the Celery
 ```console_window
 Initialize Redis
