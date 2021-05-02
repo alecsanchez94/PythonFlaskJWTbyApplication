@@ -2,6 +2,7 @@
 
 <h2>Python Flask Server</h2>
 <p>With JWT Authentication, User Signup, and Structured by App for scalability</p>
+<p>Setup for backend functionality at this point only</p>
 <p>Includes Celery and Redis for background task queue</p>
 
 ## Setup
