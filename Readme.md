@@ -14,10 +14,7 @@
 
 <h2>What is JWT Authentication?</h2>
 <p>JSON (Javascript Open Notation) Web Token</p>
-<p>Client logs in to application, Server responds with refresh and activation tokens (It does not have to be this way, you can do it however you want, maybe you only want the refresh token, I recommend you do your research on security)</p>
-<p>The tokens are stored on the client side, and are used for further API calls that required the tokens for authentication.</p>
-<p>I'm going to assume you're using some sort of Javascript framework for your frontend, please see below for some API examples with Javascript where we handle authentication and tokens.</p>
-<p>In the below Javascript examples, we'll be using the library Axios for our API calls, Axios has feature called axiosinterceptors which allows us to do things before and after each API call.</p>
+<p>Client logs in to application, Server responds with refresh and activation tokens (It does not have to be this way, you can do it however you want, maybe you only want the refresh token, I recommend you do your research on security). The tokens are stored on the client side, and are used for further API calls that required the tokens for authentication. I'm going to assume you're using some sort of Javascript framework for your frontend, please see below for some API examples with Javascript where we handle authentication and tokens. In the below Javascript examples, we'll be using the library Axios for our API calls, Axios has feature called axiosinterceptors which allows us to do things before and after each API call.</p>
 <p>The below function does not make use of axiosinterceptors as it does not need to, we do not need to send tokens along with the login request</p>
   
  ```console_window
