@@ -125,6 +125,7 @@ axiosInstance.interceptors.response.use(
 ```
 
 <p>The hard work has been taken care of. Now we can use the AxiosInstance to make API calls which will automatically handle our expired or soon to be expiring tokens.</p>
+
 ```console_window
 
 const API_FetchAllRoles = async () => {
@@ -142,4 +143,5 @@ const API_FetchAllRoles = async () => {
     //Use some callback here to set data with availRoles
     //seData(availRoles)
 }
+
 ```
