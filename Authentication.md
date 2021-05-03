@@ -30,7 +30,8 @@
  ```
  
  <p>Tokens expire after a defined amount of time, the refresh token will last 14 days (Generally accepted), while the access token lasts 15 minutes. The Access token is used to for protected API calls with "jwt_required()". </p>
- <p>See [config.py](config.py) for token settings.</p>
+ <p>See config.py for token settings.</p>
+ [config.py](config.py)
 
 
 ```console_window
