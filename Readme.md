@@ -12,6 +12,10 @@
 <p>Application, or even game developers looking to create their own backend API on their terms.</p>
 <p>There are other solutions such as Django, but I personally found this to be very heavy weight, in that you have to do things the Django way. I enjoy making my own tools and ensuring my applications do exactly what I want them to do, I found that Flask is incredibly flexible for organization and scalability.</p>
 
+<h2>What is JWT Authentication?</h2>
+<p>JSON (Javascript Open Notation) Web Token</p>
+<p>Client logs in to application, Server responds with refresh and activation tokens (It does not have to be this way, you can do it however you want, maybe you only want the refresh token, I recommend you do your research on security)</p>
+
 ## Setup
 ```console_window
 Developed using Windows 10 64bit and Python 3.7
