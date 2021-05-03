@@ -15,6 +15,38 @@
 <h2>What is JWT Authentication?</h2>
 <p>JSON (Javascript Open Notation) Web Token</p>
 <p>Client logs in to application, Server responds with refresh and activation tokens (It does not have to be this way, you can do it however you want, maybe you only want the refresh token, I recommend you do your research on security)</p>
+<p>The tokens are stored on the client side, and are used for further API calls that required the tokens for authentication.</p>
+<p>Tokens expire after a defined amount of time, the refresh token will last about 
+  
+ ```console_window
+ Javascript login example
+ 
+ export const login = (email, password) => async dispatch => {
+    const body = {
+        "email": email,
+        "password": password
+    }
+
+        // JSON.stringify({ email, password });
+
+    try {
+        const res = await axios.post(`${process.env.REACT_APP_API_URL}/auth/jwt/create/`, body);
+
+        if (res.data.code !== 'token_not_valid') {
+            axiosInstance.defaults.headers['Authorization'] = "Bearer " + res.data.access_token;
+            localStorage.setItem('access_token', res.data.access_token);
+            localStorage.setItem('refresh_token', res.data.refresh_token);
+
+        }
+
+
+
+    } catch (err) {
+        console.log(err)
+ 
+    }
+};
+ ```
 
 ## Setup
 ```console_window
