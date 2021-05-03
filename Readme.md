@@ -8,6 +8,10 @@
 <h2> What is this? </h2>
 <p>A backend server for applications. Currently configured to serve as an API for frontends.</p>
 
+<h2> Who is it for? </h2>
+<p>Application, or even game developers looking to create their own backend API on their terms.</p>
+<p>There are other solutions such as Django, but I personally found this to be very heavy weight, in that you have to do things the Django way. I enjoy making my own tools and ensuring my applications do exactly what I want them to do, I found that Flask is incredibly flexible for organization and scalability.</p>
+
 ## Setup
 ```console_window
 Developed using Windows 10 64bit and Python 3.7
