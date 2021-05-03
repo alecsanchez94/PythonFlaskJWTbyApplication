@@ -5,6 +5,9 @@
 <p>Setup for backend functionality at this point only</p>
 <p>Includes Celery and Redis for background task queue</p>
 
+<h2> What is this? </h2>
+<p>A backend server for applications. Currently configured to serve as an API for frontends.</p>
+
 ## Setup
 ```console_window
 Developed using Windows 10 64bit and Python 3.7
